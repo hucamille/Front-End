@@ -1,0 +1,20 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$red: #FF6425;
+h1 {
+  font-family: sans-serif;
+  span {
+    background-color: $red;
+    padding: 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.7;
+  color: $red;
+  &:hover{
+    opacity: 1;
+  }
+}
